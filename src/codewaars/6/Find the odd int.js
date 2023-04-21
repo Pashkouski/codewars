@@ -9,4 +9,3 @@ function findOdd(A) {
     }, {})
     return Object.values(res).find(el => el.length % 2 !== 0)[0]
 }
-
